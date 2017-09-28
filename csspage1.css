@@ -1,0 +1,240 @@
+html,body{
+    height:auto;
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #141b26;
+/*    scroll-behavior: smooth;*/
+}
+#particles{
+    position:  fixed;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+    margin-top: -50px;
+}
+.containerMain{
+    width:70%;
+    align-content: center;
+    margin: 0 auto;
+    height:70vh;
+}
+.start{
+    margin:5% auto;
+    padding-top: 12%;
+}
+
+.tag{
+    display:none;
+    
+}
+#tag1{
+        margin:-10% auto;
+
+/*    font-size: 3em;*/
+}
+#tag2{
+/*    font-size: 3em;*/
+}
+#tag3{
+   text-align: center;
+    font-size: 50px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.tagtext{
+    text-align: center;
+    font-size: 100px;
+    color:white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.tagtext1{
+    text-align: center;
+    font-size: 100px;
+    color:white;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
+.contacts{
+/*    background-color: white;*/
+    width:90%;
+    margin:0px auto;
+    align-content: center;
+}
+.contactsHeading{
+    color:white;
+    font-size: 60px;
+    width:90%;
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.contactBox{
+    width:25%;
+     display: inline-block;
+    float: left;
+    margin: 10px auto;
+    align-content: center;
+
+}
+
+.overlayimg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #1C2843;
+  overflow: hidden;
+  width: 50%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.contactBox:hover .overlayimg {
+  height: 20%;
+  opacity: 0.8;
+}
+
+.textimg {  
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}  
+.contactBox1{
+    width:25%;
+     display: inline-block;
+    float: center;
+    margin: 5px auto;
+    align-content: center;
+
+}
+
+.contact{
+/*    background-color: #162338;*/
+    margin: 0px auto;
+    width:80%;
+}
+.contactPic{
+      width:80%;
+        margin: 0px auto;
+        height: 50%;
+        border-radius: 50%;
+}
+img{
+    width:100%;
+/*   margin:0px auto;*/
+}
+.faculty{
+    margin: 10px auto;
+    width:80%;
+    background-color: rgba(0,0,0,.5);
+}
+.facultyHeading{
+    color:white;
+    font-size: 60px;
+    width:100%;
+    margin: 0px auto;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.facultyDisplay{
+    width:100%;
+    display: inline-block;
+    margin: 20px 0px;
+}
+.facultyImage{
+    width:20%;
+    float:left;
+}
+.facultyImageAdjust{
+    margin-left: 3vh;
+    
+}
+.facultyDetails{
+    width: 80%;
+    float: left;
+}
+.facultyName{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+/*    text-decoration: underline;*/
+}
+.facultyEmail{
+    color:white;
+    font-size: 40px;
+    margin-top: 5px;
+    text-align: center;
+}
+.facultyDescription{
+    color:white;
+    text-align: center;
+    margin: 3vh 5%;
+}
+@media screen and (max-width: 600px) {    
+    #tag2{
+    font-size: 2em;
+}
+#tag3{
+    font-size: 1.5em;
+}
+    
+}
+/* Code to make the contact responsive 
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 72.5%;
+}
+.span_2_of_4 {
+	width: 45%;
+}
+.span_1_of_4 {
+	width: 17.5%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 10%;
+}
+.col:first-child { margin-left: 0; }
+
+.managingteam{
+    color:white;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+}
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }*/
